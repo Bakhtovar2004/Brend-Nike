@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card img {
+  width: 350px;
+  height: 350px;
+  margin-top: 35px;
+  border-radius: 20px;
+  background-size: auto;
+}
+
+.products {
+  margin-top: 45px;
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.card {
+  width: 400px;
+  height: 550px;
+  border: 1px black solid;
+  border-radius: 20px;
+  text-align: start;
+  padding-left: 23px;
+  box-shadow: 8px 8px 10px grey;
+  transition: 0.4s;
+}
+
+.card .brown {
+  color: brown;
+  margin-top: 20px;
+}
+
+.card:hover {
+  background-color: lightgrey;
+  box-shadow: 15px 15px 15px black;
+}
+
+.cardName {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.cardButton {
+  padding-right: 25px;
+  display: flex;
+  gap: 25px;
+}
+
+.trash {
+  align-items: center;
+  display: flex;
+  gap: 25px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 25px;
+}
+
+.btns button {
+  background-color: transparent;
+  color: black;
+  border: 1px black solid;
+  border-radius: 25px;
+}
+
+.goTo {
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.aboutBrend {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.aboutProduct {
+  width: 400px;
+}

@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cards img {
+  width: 350px;
+  height: 350px;
+  margin-top: 35px;
+  border-radius: 20px;
+  background-size: auto;
+}
+
+.cards {
+  width: 400px;
+  height: 550px;
+  border: 1px black solid;
+  border-radius: 20px;
+  text-align: start;
+  padding-left: 23px;
+  box-shadow: 8px 8px 10px grey;
+  transition: 0.4s;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 45px;
+}
+
+.cards .brown {
+  color: brown;
+  margin-top: 20px;
+}
+
+.cards:hover {
+  background-color: lightgrey;
+  box-shadow: 15px 15px 15px black;
+}
+
+.cardName {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.cardButton {
+  padding-right: 25px;
+  display: flex;
+  gap: 25px;
+}
+
+.trash {
+  align-items: center;
+  display: flex;
+  gap: 25px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 25px;
+}
+
+.btns button {
+  padding: 5px;
+}
+
+.favouriteCart {
+  display: flex;
+  gap: 35px;
+  justify-content: space-between;
+}
+
+.layout {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20%;
+  padding-bottom: 35%;
+  padding-bottom: auto;
+  background-color: lightgray;
+  width: 100%;
+}

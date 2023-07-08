@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.phone {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  /* width: 60%; */
+  padding-left:30%;
+  padding-right: 30%;
+}
+
+.phoneList {
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+.pageContact {
+    padding: 10px;
+}

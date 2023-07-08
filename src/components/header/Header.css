@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px black solid;
+}
+
+.logo img {
+  width: 95px;
+  height: 60px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu .a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  display: block;
+  background: black;
+  transition: 0.3s;
+  position: relative;
+}
+
+.menu .a:hover::after {
+  width: 100%;
+}
+.a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 35px;
+}
+
+form .search {
+  width: 200px;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 10px 0px 0px 10px;
+  border: 1px grey solid;
+}
+
+form .submit {
+  width: 50px;
+  height: 30px;
+  border-radius: 0px 10px 10px 0px;
+  border: 1px grey solid;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.favorites {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.sing-up {
+  padding-right: 40px;
+}
+
+
+.icon {
+  border: none;
+  background-color: transparent;
+}
+
+.iconTrash {
+  background-color: transparent;
+  padding: 5px;
+}
+
+.icons {
+  width: 150%;
+  height: 150%;
+}
+
+.favoritesCart {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}

@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.getHelp {
+  text-align: center;
+}
+
+.searchInput {
+  padding: 5px 10px;
+}
+
+.allDiv {
+  padding-left: 25px;
+}
+
+.bigText {
+  padding: 15px;
+}
+
+.smallText {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.textHelp {
+  margin-top: 10px;
+}
+
+.buttonHelp {
+  display: flex;
+  gap: 25px;
+  text-align: center;
+  padding: 10px;
+}
+
+.buttonLike {
+  border-radius: 50%;
+  padding: 10px;
+}

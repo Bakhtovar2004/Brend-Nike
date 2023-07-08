@@ -1,0 +1,42 @@
+.basket {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  align-items: center;
+  background-color: lightgray;
+  padding: 0px 20px;
+}
+.basket img {
+  width: 150px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.layout {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20%;
+  padding-bottom: 35%;
+  padding-bottom: auto;
+  background-color: lightgray;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+span {
+  font-size: 25px;
+}
+
+.iconTotal {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
+
+.order {
+  text-align: end;
+  padding-right: 50px;
+}
